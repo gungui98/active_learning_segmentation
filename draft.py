@@ -37,7 +37,7 @@ from glob import glob
 
 # # plt.plot()
 # # plt.plot(np.arange(10), np.random.rand(10))
-# # plt.savefig("/data.local/all/hangd/v1/uncertainty1/save_plot1.png")
+# # plt.savefig("/dataset.local/all/hangd/v1/uncertainty1/save_plot1.png")
 
 # a = torch.arange(6).reshape((2, 3))
 # # print("before: ", a, "shape: ", a.shape)
@@ -53,7 +53,7 @@ from glob import glob
 # print("a: " , a)
 # print("b: ", b)
 
-# imgs_dir = "/data.local/all/hangd/dynamic_data/imgs/"
+# imgs_dir = "/dataset.local/all/hangd/dynamic_data/imgs/"
 # [splitext(file)[0] for file in listdir(imgs_dir)
 #                     if not file.startswith('.')]
 #
@@ -63,7 +63,7 @@ from glob import glob
 #     break
 
 # print("1236")
-# mask = glob("/data.local/all/hangd/dynamic_data/one32rd/masks/From40Frs__DOAN 9-10-2018__2C__IMG-0055-00001.dcm_11.*")
+# mask = glob("/dataset.local/all/hangd/dynamic_data/one32rd/masks/From40Frs__DOAN 9-10-2018__2C__IMG-0055-00001.dcm_11.*")
 #
 # print(mask)
 from collections import Counter
